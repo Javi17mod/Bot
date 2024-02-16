@@ -1,0 +1,20 @@
+{
+  "files": {
+    "Commands/General/credentials.txt": [
+      {
+        "id": "e8fa0f82-d156-4d23-999e-94e036f2e218",
+        "line": 1,
+        "version": 0,
+        "index": 0
+      }
+    ],
+    "Commands/General/server-info.js": [
+      {
+        "id": "3e0a02db-512f-4718-958b-6478a2fc004e",
+        "line": 70,
+        "version": 39,
+        "index": 3336
+      }
+    ]
+  }
+}
