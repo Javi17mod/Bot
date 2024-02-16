@@ -30,9 +30,7 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#0099ff')
             .setTitle('Credenciales Guardadas')
-            .setDescription('Tus credenciales de inicio de sesión han sido guardadas correctamente.')
-            .addField('Correo Electrónico', email)
-            .addField('Contraseña', password);
+            .setDescription('Tus credenciales de inicio de sesión han sido guardadas correctamente.', 'Correo Electrónico', email, 'Contraseña', password)
 
         // Responder al usuario en el canal con el mensaje embed
         await interaction.reply({ embeds: [embed], ephemeral: true });
