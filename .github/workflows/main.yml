@@ -1,0 +1,22 @@
+name: Ejecutar index.js
+
+on:
+  push:
+    branches:
+      - main  # Cambia esto por el nombre de tu rama principal si es diferente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del repositorio
+      uses: actions/checkout@v2
+
+    - name: Instalar dependencias
+      run: npm install  # Asegúrate de que este comando instale todas las dependencias necesarias para tu proyecto
+
+    - name: Ejecutar index.js
+      run: node index.js  # Esto ejecutará tu archivo index.js
+
+# Agrega más configuraciones según sea necesario para tu proyecto
